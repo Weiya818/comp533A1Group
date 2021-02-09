@@ -1,0 +1,11 @@
+
+I am using MacOS. Firstly, I installed aspects-1.9.0.jar on Desktop. 
+Then I modify my PATH to include /Users/zhuweiya/aspectj1.9/bin; 
+Then I used 'export CLASSPATH=/Users/zhuweiya/aspectj1.9/lib/aspectjrt.jar:$CLASSPATH' command to include aspectjrt.jar on my class path.
+
+Here are the steps to run my codes from command line in MacOS. Make sure I am in Task2 folder.
+
+Make sure I am in Task3 folder!
+
+1. ajc -1.5 woven_bankwithlogging/*.java woven_aspect/*.java woven_aspect/*.aj
+2. java woven_bankwithlogging.BankWithLogging
